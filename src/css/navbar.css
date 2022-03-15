@@ -1,0 +1,50 @@
+header {
+    z-index: 5;
+}
+
+#navbar {
+    background-color: rgba(var(--main-bg-color-rgb), 0.8);
+    backdrop-filter: blur(15px);
+    width: 100%;
+    height: 9vh;
+    align-items: center;
+    position: fixed;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    display: flex;
+    padding-left: 35px;
+}
+
+#navbar ul li a {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #CCCCCC;
+}
+
+#navbar-container {
+    height: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #1D1D1D;
+}
+
+#navbar-container > a {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 34px;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+}

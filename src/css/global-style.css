@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background: none;
+    border: none;
+}
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Mono', monospace; */
+
+:root {
+    --main-bg-color: #171717;
+    --main-bg-color-rgb: 23, 23, 23;
+    --second-bg-color: #1E1E1E;
+    --line-color: #3DDEED;
+}
+
+body {
+    position: relative;
+    background-color: var(--main-bg-color)
+}
+
+h1 {
+    font-family: 'Roboto Condensed';
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 74px;
+    line-height: 84px;
+    color: #1EE4F7;
+    margin-bottom: 20px;
+    user-select: none;
+}
+
+h2 {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #A6A6A6;
+    margin-bottom: 20px;
+    user-select: none;
+}
+
+h3 {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    margin-bottom: 70px;
+    user-select: none;
+}
+
+h4 {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 45px;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+}
+
+#line {
+    position: relative;
+    padding-left: 20px;
+  }
+
+#line::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%; 
+    background: #3DDEED;
+}
+
+.button-style-1 {
+    width: 180px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--main-bg-color); 
+    border-radius: 4px;
+    position: relative;
+    background-clip: padding-box;
+    border: solid 4px transparent;
+    margin-right: 84px;
+    cursor: pointer;
+}
+
+.button-style-1::before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -1;
+    margin: -3px;
+    border-radius: inherit;
+    background: linear-gradient(38deg, rgba(228,58,243,1) 5%, rgba(58,189,201,1) 35%, rgba(61,222,237,1) 100%);
+}
+
+.button-style-2 {
+    width: 180px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--main-bg-color);
+    border-radius: 4px;
+    position: relative;
+    background-clip: padding-box;
+    border: solid 4px transparent;
+    cursor: pointer;
+}
+
+.button-style-2::before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -1;
+    margin: -3px;
+    border-radius: inherit;
+    background: linear-gradient(222deg, rgba(228,58,243,1) 5%, rgba(58,189,201,1) 35%, rgba(61,222,237,1) 100%);
+}
+
+.button-style-1 span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding-left: 15px;
+}
+
+.button-style-2 span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding-left: 15px;
+}
+
+a #button-link {
+    width: 180px;
+    height: 50px;
+}
+
+@import'navbar.css';
+@import'introduction.css';
+@import'about.css';
