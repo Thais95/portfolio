@@ -27,12 +27,32 @@ header {
     font-size: 20px;
     line-height: 26px;
     color: #CCCCCC;
+    position: relative;
+    user-select: none;
 }
 
 #navbar ul li a:hover {
     transition: 0.2s;
     color: #FFFFFF;
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+#navbar ul li a:hover::after {
+    position: absolute;
+    content: '';
+    border-bottom: 2px dashed #FFFFFF;
+    opacity: 80%;
+    width: 90%;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+}
+
+#navbar ul li a:active {
+    color: #FFFFFF;
 }
 
 #navbar-container {
