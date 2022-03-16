@@ -6,12 +6,12 @@ function About () {
                 <div id="button-container">
                     <h4>Sobre Mim</h4>
                     <span className="button-group"><a href="mailto:thaiscdaraujo95@gmail.com" className="button-link" >
-                    <button className="button-style-1"><img src="/img/mail.svg" alt="ícone de email" />
+                    <button className="button-style hover-glow hover-glow-2"><img src="/img/mail.svg" alt="ícone de email" />
                         <span>Email</span>
                     </button>
                 </a>
                 <a href="/curriculum/curriculo-thais-araujo.pdf" target="_blank" rel="noreferrer" className="button-link" >
-                    <button className="button-style-1"><img src="/img/download-cloud.svg" alt="ícone de download" />
+                    <button className="button-style hover-glow hover-glow-2"><img src="/img/download-cloud.svg" alt="ícone de download" />
                         <span>Currículo</span>
                     </button>
                 </a></span></div>
