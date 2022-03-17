@@ -28,6 +28,11 @@ function About () {
                 Também possuo inglês avançado.
                 </p>
                 
+            <div id="construction">
+                <p id="construction-warning">PORTFÓLIO EM <br /> CONSTRUÇÃO!</p>
+            </div>
+
+
             </div>
         </section>
     )

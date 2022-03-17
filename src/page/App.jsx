@@ -8,8 +8,6 @@ function App () {
         <Navbar />
         <Introduction />
         <About />
-        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         </>
     )
 }
