@@ -39,12 +39,18 @@
     line-height: 70px;
 }
 
+#about-text::selection {
+    color: #000;
+    background-color: #892ef8;
+}
+
 #construction {
     margin-top: 300px;
     display: flex;
     justify-content: center;
     color: #fff;
     margin-bottom: 150px;
+    user-select: none;
 }
 
 .construction-warning {

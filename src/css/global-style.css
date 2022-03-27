@@ -100,7 +100,7 @@ h4 {
     padding-left: 20px;
   }
 
-#line::before{
+#line::before {
     content: '';
     position: absolute;
     top: 0;
